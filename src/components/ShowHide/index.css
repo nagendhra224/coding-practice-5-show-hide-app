@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+}
+.name-card-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  height: 35px;
+  width: 150px;
+  color: #dd1264;
+  font-family: roboto;
+  border: none;
+  border-radius: 10px;
+  margin: 30px;
+}
+.name {
+  text-align: center;
+  background-color: #fddddb;
+  font-family: roboto;
+  color: black;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.show-hide-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
